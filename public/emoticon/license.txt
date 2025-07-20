@@ -1,0 +1,8 @@
+Model Information:
+* title:	Emoticon - Thumbs Up & Sunglasses
+* source:	https://sketchfab.com/3d-models/emoticon-thumbs-up-sunglasses-e1d11a6ac92b42beb31be667499f2689
+* author:	bytephunk (https://sketchfab.com/bytephunk)
+
+Model License:
+* license type:	SKETCHFAB Standard (https://sketchfab.com/licenses)
+* requirements:	Under basic restrictions, use worldwide, on all types of media, commercially or not, and in all types of derivative works

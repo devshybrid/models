@@ -1,0 +1,11 @@
+Model Information:
+* title:	Bonk the Bonk
+* source:	https://sketchfab.com/3d-models/bonk-the-bonk-3d190d8cd48f4aba866fcd62d3c8826a
+* author:	bestworld (https://sketchfab.com/bestworld)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Bonk the Bonk" (https://sketchfab.com/3d-models/bonk-the-bonk-3d190d8cd48f4aba866fcd62d3c8826a) by bestworld (https://sketchfab.com/bestworld) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

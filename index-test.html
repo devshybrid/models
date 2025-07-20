@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Model Viewer zoom fix</title>
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+  <style>
+    html, body {
+      margin: 0; padding: 0; height: 100%; background: #000;
+    }
+    model-viewer {
+      width: 100vw; height: 100vh;
+    }
+  </style>
+</head>
+<body>
+  <model-viewer
+    id="model"
+    src="public/arabic.glb"
+    alt="Modèle 3D mn gbl hey"
+    autoplay
+    auto-rotate
+    camera-controls
+    background-color="#000000"
+    ar
+    ar-modes="webxr scene-viewer quick-look"
+    shadow-intensity="1">
+  </model-viewer>
+
+  <script>
+    const modelViewer = document.getElementById('model');
+
+    // Quand le modèle est chargé
+    modelViewer.addEventListener('load', () => {
+      // Forcer la position de la caméra (azimuth, elevation, distance)
+      modelViewer.cameraOrbit = '0deg 75deg 3m';
+
+      // Appliquer la position
+      modelViewer.jumpCameraToGoal();
+
+      // Facultatif : on peut aussi fixer les limites du zoom
+      modelViewer.minCameraOrbit = 'auto auto 3m';
+      modelViewer.maxCameraOrbit = 'auto auto 3m';
+    });
+  </script>
+</body>
+</html>
